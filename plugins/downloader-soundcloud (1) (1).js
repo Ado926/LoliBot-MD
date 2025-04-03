@@ -50,7 +50,7 @@ let handler = async (m, { conn, text }) => {
       caption: `╭─━━━━━━━━━━━━━─╮
 │  📥 *Descargando...* ⏳  
 ╰─━━━━━━━━━━━━━─╯
-
+*LoliBot-MD*
 📌 *Título:* _${video.title || 'Desconocido'}_
 🎤 *Canal:* _${video.author.name || 'Desconocido'}_
 👁️ *Vistas:* _${video.views || 'Desconocido'}_
@@ -86,6 +86,6 @@ let handler = async (m, { conn, text }) => {
 // Cambia el Regex para que reconozca ".play"
 handler.command = ['play', 'mp3'];
 handler.help = ['play']
-handler.tags = ['play']
+handler.tags = ['downloader']
 
 export default handler;
