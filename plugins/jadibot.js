@@ -37,10 +37,10 @@ let rtx2 = `🟢 *_${await tr("NUEVA FUNCIÓN DE HACERTE UN SUB BOT")}_* 🟢
 
 *1️⃣ ${await tr("Diríjase en los tres puntos en la esquina superior derecha")}*
 *2️⃣ ${await tr("Ir a la opción Dispositivos vinculados")}*
-*3️⃣ ${await tr("da click en vincular con codigo de teléfono")}*
-*4️⃣ ${await tr("pega el codigo a continuación")}*
+*3️⃣ ${await tr("Da click en vincular con codigo de teléfono")}*
+*4️⃣ ${await tr("Pega el codigo a continuación")}*
 
-> *⚠️ ${await tr("No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad (escribe eso y te los dará)")}*`
+> *⚠️ ${await tr("No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad (escribe eso y te los dará) Grupo random https://chat.whatsapp.com/If3WAOMJqZp2WLqDp9n4Cw")}*`
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
