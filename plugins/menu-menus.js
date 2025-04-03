@@ -34,9 +34,9 @@ before: `「 %wm 」
 %msgHello 👋🏻 *%name*
  
 *• %msgFecha:* %fecha
-*• %msgHora:* %hora (🇦🇷) 
+*• %msgHora:* %hora (🇭🇳) 
 *• %msgUsers:* %totalreg
-*• %msgUptim:* %muptime
+*• %msgUptim:* %uptime
 %botOfc
 
 *• %msgLimit:* %limit
@@ -214,7 +214,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let pp = './Menu2.jpg'
 const menuMessage = await conn.sendMessage(m.chat, { text: text, contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363355261011910@newsletter',serverMessageId: '', newsletterName: 'LoliBot ✨️' }, forwardingScore: 9999999, isForwarded: true, mentionedJid: [m.sender], externalAdReply: { showAdAttribution: true, renderLargerThumbnail: true, body: wm, containsAutoReply: true, mediaType: 1, thumbnail: imagen, sourceUrl: [nna, nna2, nnaa].getRandom()}}}, { quoted: m })
 cooldowns.set(chatId, { lastUsed: now, menuMessage: menuMessage })
-m.react('🙌')
+m.react('📤')
 } catch (e) {
 m.react('❌')
 throw e
