@@ -196,7 +196,7 @@ await conn.sendMessage(m.chat, { text: `[ ✅ ${await tr("REGISTRO COMPLETADO")}
 🎁 *${await tr("Recompensa")}:*
 ⤷ 2 ${await tr("diamantes")} 💎
 ⤷ 400 ${await tr("Coins")} 🪙
-⤷ 150 exp\n Nota: lamentamos los errores pero poco a poco iremos solucionando.
+⤷ 150 exp\n Nota: Lamentamos los errores pero poco a poco iremos solucionando.
 
 *◉ ${await tr("Para ver los comandos del bot usar")}:*
 ${usedPrefix2}menu
