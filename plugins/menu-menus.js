@@ -59,18 +59,18 @@ ${[`*\`✅ %msg2\`*\nhttps://youtu.be/z2kHwbu8e8s?si=M9iHLdVv7yXe_dvJ`, `%msg3\n
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 const msgHello = await tr("Hola")
 const msgFecha = await tr("Fecha")
-const msgHora = await tr("Hora")
+const msgHora = await tr("Hora Arg")
 const msgUsers = await tr("Usuario")
-const msgUptim = await tr("Tiempo activos")
+const msgUptim = await tr("Tiempo activa")
 const msgLimit = await tr("Tu limite")
 const msgNivel  = await tr("Nivel")
 const msgRang = await tr("Rango")
 const msgExp = await tr("Exp")
 const msgRegUser = await tr("Usuario registrados")
 const msg2 = await tr("Activar tu bot 24/7 activo en SkyPlus")
-const msg3 = await tr("Unirte a nuestro canal de WhatsApp y informarte de todas la novedades/Actualizaciones del bot y mas")
-const msg4 = await tr("Seguirme el tiktok")
-const msg5 = await tr("Bot Ofc")
+const msg3 = await tr("No olvides visitar nuestro canal de WhatsApp :D")
+const msg4 = await tr("Grupito :3")
+const msg5 = await tr("Bot Ofc 👻")
 const msg6 = await tr("Soy un sub bot del")
 try {
 const chatId = m.chat
