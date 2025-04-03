@@ -668,11 +668,11 @@ rowner: await tr('⚠️ Tu que? este comando es solo para mi propietario'),
 owner: await tr('⚠️ Tu que? este comando es solo para mi propietario.'),
 mods: await tr('⚠️ Este comando solo lo puedo usar yo. ¡Privilegios de mod! 😘'),
 premium: await tr('⚠️ Este comando es solo para usuarios Premium (VIP). ¡Ser VIP tiene sus beneficios! 🌟'),
-group: await tr('⚠️ Pendejo este comando es solo para grupos.'),
+group: await tr('⚠️ Wey este comando es solo para grupos ;-;'),
 private: await tr('⚠️ Vamos al privado, este comando solo funciona en el privado del bot. ¡Hablemos en privado! 🤫'),
 admin: await tr('🤨 No eres admins. Solo los admins pueden usar este comando.'),
 botAdmin: await tr('⚠️ haz admin al Bot "YO" para poder usar este comando.'),
-unreg: await tr('「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: #reg nombre.edad\nEjemplo: #reg elrebelde.21'),
+unreg: await tr('「NO ESTAS REGISTRADO」\n\nWE NO APARECES EN MI BASE DE DATOS :V\n\nPara poder usar todos mis comandos escribe el siguente comando\n\nComando: #reg nombre.edad\nEjemplo: #reg alowy.21'),
 restrict: await tr('[ 🔐 ] Este comando esta desactivado por mi jefe')
 }[type];
 if (msg) return conn.sendMessage(m.chat, {text: msg, contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363355261011910@newsletter', serverMessageId: '', newsletterName: 'LoliBot ✨' }, externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `ℹ️𝐈𝐍𝐅𝐎 ℹ️`, body: wm, previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, nna2, md, yt, nn, tiktok].getRandom()}}}, { quoted: m })
