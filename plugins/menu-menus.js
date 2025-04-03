@@ -34,7 +34,7 @@ before: `「 %wm 」
 %msgHello 👋🏻 *%name*
  
 *• %msgFecha:* %fecha
-*• %msgHora:* %hora (🇭🇳) 
+*• %msgHora:* %hora (🇦🇷) 
 *• %msgUsers:* %totalreg
 *• %msgUptim:* %uptime
 %botOfc
