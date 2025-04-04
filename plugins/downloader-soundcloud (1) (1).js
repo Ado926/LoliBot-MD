@@ -50,7 +50,7 @@ let handler = async (m, { conn, text }) => {
       caption: `╭─━━━━━━━━━━━━━─╮
 │  📥 *Descargando...* ⏳  
 ╰─━━━━━━━━━━━━━─╯
-*LoliBot-MD*
+*💜 LoliBot-MD 💜*
 📌 *Título:* _${video.title || 'Desconocido'}_
 🎤 *Canal:* _${video.author.name || 'Desconocido'}_
 👁️ *Vistas:* _${video.views || 'Desconocido'}_
@@ -58,7 +58,7 @@ let handler = async (m, { conn, text }) => {
 🗓️ *Publicado hace:* _${video.ago || 'Desconocido'}_
 🔗 *Enlace:* ${video.url}
 
-⚡ _Por favor espera mientras procesamos tu archivo..._`,
+📶 _Por favor espera mientras procesamos tu archivo..._`,
       });
     // Enviar solo el audio
     const audioMessage = {
